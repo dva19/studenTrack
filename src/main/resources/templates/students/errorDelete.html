@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Find & Delete</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="p-3 mb-2 bg-body-secondary">
+    <div class="container col-md-4">
+      <h1 class="text-center mt-5 mb-4">OOPS! ERROR!</h1>
+      <p class="text-center fs-4 mb-4" th:text="${error}"></p>
+      <a class="d-grid gap-2" href="/home.html">
+        <button type="button" class="btn btn-primary">RETURN TO HOME</button>
+      </a><br>
+      <a class="d-grid gap-2" href="/findAndDelete.html">
+        <button type="button" class="btn btn-primary">FIND ANOTHER STUDENT</button>
+      </a>
+    </div>
+
+	<script src="navigate.js"></script>
+</body>
+</html>
