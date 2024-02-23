@@ -1,0 +1,43 @@
+// StudenTrack
+
+
+## Description
+This application is designed to track a group of students
+It allows users to add new students, modify student attributes, and delete students as needed. 
+It utilizes a Spring framework backend with a database to store student information.
+
+## Features
+- Add new students
+- Modify student attributes
+- Delete students
+- Display all students
+
+## Usage
+1. The application is hosted on render.com at the following link: https://studentrack.onrender.com
+2. To access the application home page, follow this link: https://studentrack.onrender.com/Home.html
+3. From the home page, you can navigate to various sections:
+
+    Add a Student: 
+    Click the "Add a Student" button to fill out the form for adding a new student. 
+    You'll be directed to a confirmation page after submitting the form.
+
+    Update a Student: 
+    Click the "Update a Student" button to fill out the student ID in the find and update form. 
+    If a student with that ID does not exist, an error page is displayed (with options to navigate back). 
+    Otherwise, Update form with the student's information will be displayed.
+    After submitting the form, you'll be directed to an update confirmation page.
+
+    Delete a Student: 
+    Click the "Delete a Student" button to fill out the student ID in the delete form.  
+    After submitting the form, you'll be directed to a delete confirmation page.
+    If a student with that ID does not exist, an error page is displayed (with options to navigate back).
+
+    Display Students: 
+    Displays all students in the database.
+
+4. The "Display All Students" page visually represents all students in the database using rectangles (with color same as student's hair color)
+    Each rectangle containing information such as name, weight, height, gpa and student id.
+    Each rectangle has links to update and delete the student.
+
+
+
